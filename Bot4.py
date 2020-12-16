@@ -7,7 +7,7 @@ vvv = 0
 text = 0
 bog = 0
 m = 0
-bot = telebot.TeleBot('1255218711:AAEWq0b2vptpKD60Iwvu_aW_6VxXtCNjdh0');
+bot = telebot.TeleBot('***');
 @bot.message_handler(content_types=['text'])
 def reg_name(message):
     bot.send_message(message.from_user.id, "Привет, я умею счетать ХЕ (все продукты пишутся в единственном числе)")
