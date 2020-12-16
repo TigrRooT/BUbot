@@ -83,4 +83,3 @@ def zzzz(message):
         bot.register_next_step_handler(message, prod)
 
 bot.polling(none_stop=True, interval=0)
-#https://surik00.gitbooks.io/aiogram-lessons/content/chapter4.html платежи
